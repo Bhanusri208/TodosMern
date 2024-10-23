@@ -1,0 +1,76 @@
+.todo-list{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+.add-todo-cont{
+   display: flex;
+   justify-content: center;
+}
+.todo-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8vh;
+}
+.todo-bg{
+    background-color: rgb(245, 246, 246);
+    height: 900vh;
+    background-image: "https://www.shutterstock.com/search/bright-white-background";
+}
+.each-todo-cont{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(252, 246, 241);
+    width: 50vw;
+    justify-content: space-between;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 7px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.edit-icon{
+    width: 5vw;
+    height: 3.8vh;
+}
+.edit-icon:hover {
+    color: #666060;
+  }
+.delete-icon{
+    width: 5vw;
+    height: 3.4vh;
+}
+.delete-icon:hover {
+    color: #ef3e3e;
+  }
+.input-box{
+  font-family: cursive;
+  margin-top: 5vh;
+  width: 30vw;
+  background-color: rgb(202, 197, 197);
+  color: rgb(44, 40, 40);
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-width: 0%;
+}
+.add-btn{
+    margin-left: 0.5vw;
+    margin-top: 5vh;
+    font-family: cursive;
+    background-color: rgb(202, 197, 197);
+    color: rgb(44, 40, 40);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width:5vw;
+  border-bottom-left-radius: 10px;
+  padding: 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 15px;
+}
+.icons{
+    display: flex;
+}
